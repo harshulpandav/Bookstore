@@ -1,0 +1,29 @@
+Testing done using Advanced REST Client extension for chrome
+https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo?hl=en-US
+
+SAMPLE TEST DATA
+
+For createUser:
+URL: http://localhost:8080/bookstore/createUser
+Payload: {"firstName":"Harshul","lastName":"Pandav","middleName":null,"age":26,"gender":"M","phone":4045284633,"zip":0}
+
+For getAllUsers:
+URL: http://localhost:8080/bookstore/getAllUsers
+
+For updateUser:
+URL: http://localhost:8080/bookstore/createUser
+Payload: {"id":1,"firstName":"Harshul","lastName":"Pandav","middleName":null,"age":26,"gender":"M","phone":4044044044,"zip":0}
+
+For getAllBooks:
+URL: http://localhost:8080/bookstore/getAllBooks
+
+For addBook:
+URL: http://localhost:8080/bookstore/addBook
+Payload: {"name":"Alpha","authors":"Greg,Steve"}
+
+For findBookByName: 
+URL: http://localhost:8080/bookstore/findBookByName/Alpha
+
+For checkOutBook:
+URL: http://localhost:8080/bookstore/checkOutBook/1/1
+
